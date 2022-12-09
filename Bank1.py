@@ -18,8 +18,8 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 st.title("Predicting Customers who might terminate their Credit Card Services")
 st.markdown( "A manager at the bank is disturbed with more and more customers leaving their credit card services. They would really appreciate if one could predict for them who is gonna get churned so they can proactively go to the customer to provide them better services and turn customers' decisions in the opposite direction. The model is trained with the Credit Card customers dataset on Kaggle")
 
-data_url = "C:\\Users\\Samujjwal\\Desktop\\projri\\BankChurners.csv"
-data_unclean_url = "C:\\Users\\Samujjwal\\Desktop\\projri\\BankChurners.csv"
+data_url = "https://raw.githubusercontent.com/rsareen22/CMSE-final-project/main/Bank_Churners_Clean.csv"
+data_unclean_url = "https://raw.githubusercontent.com/rsareen22/CMSE-final-project/main/BankChurners.csv"
 
 # Creating a side bar for users to explore
 st.sidebar.markdown("## Side Bar")
